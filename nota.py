@@ -5,6 +5,7 @@ nota4 = 6
 idade1= 15
 idade2= 16
 idade3= 17
+idade4 = 18
 media = (nota1 + nota2 + nota3 + nota4) / 4
 turma1 = "1º ano"
 turma2 = "2º ano"
