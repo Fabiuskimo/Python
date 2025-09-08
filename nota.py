@@ -13,7 +13,7 @@ turma3 = "3º ano"
 turma4= "Não há turma disponível para sua idade"
     
 while True:    
-    notaMedia = float (input("Suas notas foram 10, 9, 7 e 6. Qual foi a média de suas notas?"))
+    notaMedia = float(input("Suas notas foram 10, 9, 7 e 6. Qual foi a média de suas notas?"))
 
     if notaMedia == media:
         print("Você acertou a média de suas notas.")
@@ -21,13 +21,16 @@ while True:
     else:
         print("A média das notas está errada.")
 
-idade = int(input("Coloque sua idade para saber qual será sua turma: "))
-if idade ==idade1:
-    print ("você vai para", turma1)
-elif idade ==idade2:
-    print ("você vai para", turma2)
-elif idade ==idade3:
-    print ("você vai para", turma3)
-else:
-    print (turma4)
-
+while True:
+    idade = int(input("Coloque sua idade para saber qual será sua turma: "))
+    if idade == idade1:
+        print ("você vai para", turma1)
+        break
+    elif idade == idade2:
+        print ("você vai para", turma2)
+        break
+    elif idade == idade3:
+        print ("você vai para", turma3)
+        break
+    else:
+        print (turma4)
